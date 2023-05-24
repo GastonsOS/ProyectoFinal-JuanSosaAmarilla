@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/image/484705.png">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../js/bootstrap.min.js">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Nutricionista L.R</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor"> 
+            <header class="header">
+                <div class="logo">
+                    <img src="../assets/image/484705.png" alt="Logo de la empresa">
+                </div>
+                <nav>
+                   <ul class="nav-links">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../pages/planesyprecios.html">Planes y Precios</a></li>
+                        <li><a href="../pages/audiovisuales.html">Audiovisuales</a></li>
+                        <li><a href="../pages/contacto.html">Contacto</a></li>
+                   </ul>            
+                </nav>
+        
+                <a onclick="openNav()" class =" menú " href =" #menu " > <boton > &#9776; </boton> </a>
+               
+                <div id="mobile-menu" class="overlay">
+                   <a onclick="closeNav()" href="" class="close">&times;</a>
+                   <div class="overlay-content">
+                        <a href="../index.html">Inicio</a>
+                        <a href="../pages/planesyprecios.html">Planes y Precios</a>
+                        <a href="../pages/audiovisuales.html">Audiovisuales</a>
+                        <a href="../pages/contacto.html">Contacto</a>
+                    </div>
+                </div>
+        </header>
+    <main>
+
+    <div class="contenedor-formulario">
+        <form>
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribí aquí tu nombre" required minlength="3">
+            <label for="apellido">Apellido: </label>
+            <input type="text" id="apellido" name="apellido" placeholder="Escribí aquí tu apellido" required minlength="3">
+            <label for="mail">Email: </label>
+            <input type="email" id="mail" name="mail" placeholder="Escribí aquí tu mail" required>
+            <label for="pais">País: </label>
+            <select name="pais" id="pais">
+                <option value="Argentina">Argentina</option>
+                <option value="Chile">Chile</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Perú">Perú</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="España">España</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Ecuador">Ecuador</option>
+            </select>
+            <label for="comentario">Comentario: </label>
+            <textarea name="comentario" id="comentario" placeholder="Escribí aquí tu comentario"></textarea>
+
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+   
+    </main>
+    
+    <footer class="contacto">
+        <p>Derechos Reservados &copy; 2023</p>
+    </footer>
+    <script type="text/javascript" src="../nav.js"></script>
+</body>
+</html>

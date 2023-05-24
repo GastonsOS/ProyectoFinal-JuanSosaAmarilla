@@ -1,0 +1,35 @@
+.footer {
+    background-color:rgba(196, 166, 96, 0.752);
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    clear: both;   
+    @include templateGrid(1)
+} 
+
+.audiovisuales {
+    background-color:rgba(196, 166, 96, 0.752);
+    color: #FFF;
+    margin-top: 300px;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+.planesyprecios {
+    background-color:rgba(196, 166, 96, 0.752);
+    color: #FFF;
+    margin-top: 300px;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+.contacto {
+    background-color:rgba(196, 166, 96, 0.752);
+    color: #FFF;
+    margin-top: 700px;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
