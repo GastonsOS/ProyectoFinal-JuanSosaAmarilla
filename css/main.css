@@ -209,12 +209,12 @@
 }
 
 .video {
-  margin: 10px 0;
-  padding: 20px;
-  width: 50%;
-  position: relative;
+  margin: 10px 0px;
+  padding: 10px;
+  width: 100%;
+  position:relative;
   left: 25%;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .contenedor {
